@@ -1,0 +1,67 @@
+/* Background Colors */
+.reservesbackground {
+  background-color: #0a090b;
+}
+
+.reserveshero {
+  background-color: #0a090b;
+  font-family: "SF Pro Display", sans-serif;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 2.5rem 1.25rem; /* Adjust as needed */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.reservesstats {
+  background-color: rgba(21, 21, 21, 0.5);
+  font-family: "SF Pro Display", sans-serif;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  margin-top: 1rem;
+}
+
+/* Typography */
+.reservesvalues {
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  text-shadow: 0px 1px 2px rgba(255, 255, 255, 0.5);
+  animation: fadeIn 1s;
+}
+
+/* Navigation Styles */
+.navstyle {
+  background-color: rgb(27, 32, 48);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  border-bottom: 2px solid #4f4c4c;
+}
+
+.navheader {
+  background-color: rgb(27, 32, 48);
+  border-top: 2px solid #4f4c4c;
+  padding: 1rem;
+}
+
+/* Chart Layout */
+.chart {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
